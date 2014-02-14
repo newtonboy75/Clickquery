@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:src="@drawable/logo_final_hi_res" />
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#0066CC"
+    android:paddingLeft="8dp"
+    android:paddingTop="5dp"
+    android:singleLine="true"
+    android:gravity="center"
+    android:text="Date" >
+</TextView>  
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#0066CC"
+    android:paddingLeft="150dp"
+    android:paddingTop="5dp"
+    android:singleLine="true"
+    android:gravity="center"
+    android:text="New Subscribers"
+
+>
+</TextView> 
+</RelativeLayout>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TableLayout
+    		android:background="@drawable/bg_card"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal|right"
+            android:id="@+id/TableLayout01" >
+</TableLayout>
+</ScrollView>
+</LinearLayout>
